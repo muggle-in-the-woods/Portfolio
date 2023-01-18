@@ -9,9 +9,15 @@ with col1:
     st.image('images/photo.png')
 
 with col2:
-    st.title('Taras Koziupa')
-    content = """
+    st.title("Taras Koziupa")
+    content0 = """
     Hey, I'm Taras! I'm a renewable energy engineer.
     """
 
-    st.info(content)
+    st.info(content0)
+
+content1 = """
+Below you can find some of the apps I've built with Python as well as my contact information
+"""
+
+st.write(content1)
